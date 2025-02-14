@@ -1,0 +1,100 @@
+# Gabriel e Gabriel
+
+Por favor
+
+	# Frente até obstáculo 10%
+	Enquanto S1 = falso
+	[
+		motor MD frente 17%
+		motor ME frente 10%
+	]
+
+	# Pega a vítima
+	servo2 80 graus
+	servo3 180 graus
+
+	# Frente até obstáculo 10%
+	Enquanto S1 = falso
+	[
+		motor MD frente 17%
+		motor ME frente 10%
+	]
+
+	# Solta a vítima
+	servo3 50 graus
+	servo2 100 graus
+
+	# Volta a posição inicial
+	ré 1 s
+	giro direita 0,5 s
+	servo3 0 grau
+	servo2 180 graus
+
+	# Comemora! (Hino do Corinthians)
+	Nota Dó2 0,5 s
+	Nota SI 0,5 s
+	Nota SOL 0,5 s
+	Nota MI 1 s
+	Nota MI 1,5 s
+
+	Nota MI 0,25 s
+	Nota MI 0,25 s
+	Nota SolB 0,25 s
+	Nota SOL 0,25 s
+	Nota SI 0,25 s
+	Nota Lá 0,25 s
+	Nota SOL 0,25 s
+	Nota SolB 2 s
+
+	Nota Lá 0,5 s
+	Nota Solb 0,5 s
+	Nota MI 0,5 s
+	Nota Mib 1 s
+	Nota Mib 1,5 s
+
+	Nota Mib 0,25 s
+	Nota Mib 0,25 s
+	Nota MI 0,25 s
+	Nota Solb 0,25 s
+	Nota Lá 0,25 s
+	Nota SOL 0,25 s
+	Nota Solb 0,25 s
+	Nota SI 2,0 s
+
+	Nota SI 0,5 s
+	Nota Lá 0,5 s
+	Nota Láb 0,5 s
+	Nota Lá 1 s
+	Nota Lá 1,5 s
+
+	Nota Lá 0,25 s
+	Nota Lá 0,25 s
+	Nota SI 0,25 s
+	Nota Dó2 0,25 s
+	Nota Mi2 0,25 s
+	Nota Dó2 0,25 s
+	Nota Lá 0,25 s
+	Nota SOL 2 s
+
+	Nota Mi2 0,5 s
+    Nota SI 0,5 s
+    Nota SOL 0,5 s
+    Nota Solb 1 s
+    Nota Solb 1,5 s
+
+    Nota Si 0,25 s
+    Nota Si 0,25 s
+    Nota Dó2 0,25 s
+    Nota Si 0,25 s
+    Nota Lá 0,25 s
+    Nota SOL 0,25 s
+    Nota Solb 0,25 s
+    Nota MI 2 s
+
+    Nota Dó2 0,25 s
+    Nota SI 0,25 s
+    Nota SOL 0,5 s
+    Nota MI 2 s
+
+Obrigado
+

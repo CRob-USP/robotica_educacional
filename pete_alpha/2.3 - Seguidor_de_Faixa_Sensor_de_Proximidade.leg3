@@ -1,0 +1,57 @@
+LEGAL V05
+2
+4
+
+<P>
+{ Prática 4 de Robótica Educacional (5500003) }
+{ Nome: Diogo Castanho Emídio }
+
+Por favor
+	Habilite evento S1
+	
+	Repita sempre
+	[
+		Motor ME frente 10 %
+		Motor MD frente 10 %
+
+		# S6: sensor de faixa direito
+		Enquanto S6 = FALSO
+		[
+			Motor ME ré 10 %
+		]
+		
+		# S2: sensor de faixa esquerdo
+		Enquanto S2 = FALSO
+		[
+			Motor MD ré 10 %
+		]
+	]
+Obrigado
+<E1>
+# S1: sensor de proximidade
+
+# Afasta do objeto
+Motor ME ré 10 %
+Motor MD ré 10 %
+Espere 0,5 s
+
+# Contorna
+Giro esquerda 0,3 s
+Motor ME frente 35 %
+Motor MD frente 5 %
+
+# Retorna para a faixa
+Enquanto S6 = VERDADEIRO
+[
+]
+Motor ME ré 10 %
+<E2>
+<E3>
+<E4>
+<E5>
+<E6>
+<E7>
+<E8>
+<BibVar>
+<BibSub>
+<Fim>

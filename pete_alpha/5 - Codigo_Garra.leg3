@@ -1,0 +1,49 @@
+LEGAL V05
+2
+4
+
+<P>
+{ Prática 6 de Robótica Educacional (5500003) }
+{ Nome: Diogo Castanho Emídio }
+
+Por favor
+	Habilite evento S1
+	Habilite evento S5
+	Motor ME frente 30 %
+	Motor MD frente 30 %
+	
+	Repita sempre
+	[
+	]
+Obrigado
+<E1>
+# S1: sensor de proximidade
+Motor ME frente 15 %
+Motor MD frente 15 %
+<E2>
+<E3>
+<E4>
+<E5>
+# S5: sensor de contato
+
+# Afasta da parede
+Motor ME ré 10 %
+Motor MD ré 10 %
+Espere 0,3 s
+
+# Passa a bolinha da pá para a caçamba por cima
+servo3 100 graus
+Espere 0,3 s
+
+# Joga a bolinha por trás
+Giro esquerda 0,7 s
+Motor ME ré 10 %
+Motor MD ré 10 %
+Espere 0,3 s
+servo1 180 graus
+<E6>
+<E7>
+<E8>
+<BibVar>
+<BibSub>
+<Fim>

@@ -1,0 +1,43 @@
+LEGAL V05
+2
+2
+
+<P>
+{ Prática 2 de Robótica Educacional (5500003) }
+{ Nomes:	 Diogo Castanho Emídio
+			Rodrigo Felipe Soares }
+
+Por favor
+	# S1: sensor de proximidade 
+	Enquanto S1 = FALSO
+	[
+		Motor ME frente 15 %
+		Motor MD frente 15 %
+		# S2: sensor de faixa esquerdo
+		Se S2 = FALSO então
+		[
+			Espere 0,2 s
+			Motor MD ré 10 %
+		]
+		# S6: sensor de faixa direito
+		Se S6 = FALSO então
+		[
+			Espere 0,2 s
+			Motor ME ré 10 %
+		]
+	]
+	Pare
+	Som alarme
+	Giro esquerda 0,75 s
+Obrigado
+<E1>
+<E2>
+<E3>
+<E4>
+<E5>
+<E6>
+<E7>
+<E8>
+<BibVar>
+<BibSub>
+<Fim>

@@ -1,0 +1,55 @@
+# Dalmo e Túlio
+
+Por favor
+
+	Servo4 30 graus 
+	Servo2 145 graus # plataforma modo andar
+
+	Repita sempre
+	[	
+		Se S8 = verdadeiro então	
+		[
+			Servo2 150 graus # Plataforma prepara para receber
+			Servo4  30 graus # Apanhador desce
+		    Servo4  70 graus # Apanhador desce gradualmente:
+		    Espere 0,1 s
+			Servo4 75 graus 
+		    Espere 0,2 s
+			Servo4 80 graus 
+		    Espere 0,2 s
+			Servo4 85 graus 
+		    Espere 0,2 s
+		    Servo4 90 graus 
+		    Servo2 140 graus # Subindo plataforma
+			Espere 0,1 s
+			Servo2 120 graus
+			Espere 0,1 s
+			Servo2 110 graus
+			Espere 0,1 s
+			Servo2 100 graus
+			Espere 0,1 s
+			Servo2 90 graus
+			Servo4 30 graus
+
+			repita sempre
+			[
+				frente 2 s 20% # segue em direção ao local
+				espere 0,1 s
+
+				Se S8 = verdadeiro então # identifica o local
+				[
+					Servo2 80 graus 
+					espere 0,1 s
+					Servo2 70 graus
+					espere 0,1 s
+					Servo2 60 graus
+					Espere 2,5 s
+					ré 1 s 20%
+					Som alarme
+					Espere 10 s
+				]
+			]
+        ]	
+    ]
+
+Obrigado

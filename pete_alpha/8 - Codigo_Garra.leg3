@@ -1,0 +1,19 @@
+// Sergio, Felipe e Arthur
+Por favor
+	# Instalar motores em ME e MD
+	Servo2 65 graus
+	Espere 1 s
+	Servo1 140 graus
+	Espere 1 s
+	Servo2 10 graus
+	Espere 1 s
+
+   	 Motor ME frente 5%
+   	 Motor MD frente 5%
+ 	Frente 1 s
+ 	Espere 1 s
+
+ 	Servo1 60 graus
+ 	Som explosão
+Obrigado
+

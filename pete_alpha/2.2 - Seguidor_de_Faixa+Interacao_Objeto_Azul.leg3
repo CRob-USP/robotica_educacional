@@ -1,0 +1,52 @@
+LEGAL V05
+2
+4
+
+<P>
+{ Prática 3 de Robótica Educacional (5500003) }
+{ Nomes:	Diogo Castanho Emídio
+			Rodrigo Felipe Soares }
+
+Por favor	
+	Repita sempre
+	[
+		# Segue faixa escura
+		Habilite evento S2 invertido
+		Habilite evento S6 invertido
+		Motor ME frente 10 %
+		Motor MD frente 10 %
+		
+		# Dá uma volta ao redor do objeto azul - S5: sensor de cor
+		Se S5 = azul então
+		[
+			Desabilite evento S2
+			Desabilite evento S6
+			Motor ME ré 10 %
+			Motor MD ré 10 %
+			Espere 0,5 s
+			Pare
+			Giro esquerda 0,3 s
+			Curva direita 7,2 s
+			Giro esquerda 0,3 s
+		]
+	]
+Obrigado
+<E1>
+<E2>
+# S2: sensor de faixa esquerdo
+Pare
+Motor MD ré 5 %
+Espere 0,2 s
+<E3>
+<E4>
+<E5>
+<E6>
+# S6: sensor de faixa direito
+Pare
+Motor ME ré 5 %
+Espere 0,2 s
+<E7>
+<E8>
+<BibVar>
+<BibSub>
+<Fim>

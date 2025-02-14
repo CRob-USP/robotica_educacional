@@ -1,0 +1,30 @@
+# Ana Alice
+# Ludmila Fabbri
+
+#Garrinha: Ela deve estar dentro do loop. Se a garrinha não ficar dentro de um loop ela solta a bolinha depois que o comando acaba.
+
+Por favor
+	servo1 100 graus
+	Servo3 120 graus
+	espere 1 s
+	motor ME frente 2%
+	motor MD frente 5%
+	espere 2 s
+	pare	
+	servo1 180 graus
+	Servo3 110 graus
+	Servo3 85 graus
+	servo1 170 graus
+	Servo3 70 graus
+	servo1 160 graus
+	servo3 50 graus
+	servo1 150 graus
+	servo3 40 graus	
+	motor ME frente 3%
+	motor MD frente 6%
+	espere 2 s
+	pare
+	Servo3 90 graus
+	servo3 105 graus
+Obrigado
+
